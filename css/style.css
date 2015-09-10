@@ -1,0 +1,191 @@
+/*  CSS FILE  */
+
+.borders{ /*for wireframe work*/
+	border:1px solid #000;
+}
+
+.main{
+  background-color: transparent;
+  margin-top: 70px;
+  padding-bottom: 10px;
+}
+
+.rest{
+  padding-bottom: 10px;
+}
+
+.center{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.sociallink:hover{
+  opacity: 0.3;
+}
+
+.part{
+  padding-bottom: 20px;
+}
+
+.line{
+  padding:5px;
+}
+
+html { 
+background: url(../images/bg.png) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+body{
+  background-color: #fff;
+}
+
+/*BUTTON STUFFS*/
+.btn{
+	border-radius: 23px;
+	font-size: ;
+	border: 0px solid transparent;
+}
+
+.btn-default{
+  color: #fff;
+  background-color: green;
+}
+.btn-default:hover{
+  opacity: 0.3;
+  color: #fff;
+  background-color: green;
+}
+.btn-default:active{
+  color: #fff;
+  background-color: green;
+}
+.btn-default:focus{
+  color: #fff;
+  background-color: green;
+}
+
+.btnpad{
+	padding: 5px;
+}
+
+.btnnav{
+  padding-top: 7px;
+}
+
+.btnemail{
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+/*NAV STUFFS*/
+.navtop{
+  margin: 5px;
+}
+
+.namepad{
+  padding-top: 15px;
+}
+
+.header{
+  padding: 0px;
+}
+
+.navline{
+  margin:0px;
+  -webkit-margin-before: 3px;
+  -webkit-margin-after: 10px;
+}
+
+/*QUEST GALLERY STUFFS*/
+.quest{
+  opacity: 0.7;
+  background-image:url('../images/quest.png');
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quest:hover{
+  opacity:1;
+}
+
+.cquest{
+  opacity: 0.7;
+  background-image:url('../images/quest.png');
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cquest:hover{
+  opacity:1;
+}
+
+   /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      .main{
+        margin-top: 70px;
+      }
+	}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .main{
+        margin-top: 70px;
+      }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .main{
+        margin-top: 50px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .main{
+        margin-top: 20px;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 346px) {
+      .main{
+        margin-top: 30px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
